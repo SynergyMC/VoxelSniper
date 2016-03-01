@@ -1,33 +1,39 @@
-#Folders to ignore
-bin/
+# Eclipse stuff
+.classpath
+.project
+.settings/
+
+# netbeans
+nbproject
+
+# maven
+/*/target/
 target/
-build/
-.externalToolBuilders/
+
+# gradle
+.gradle/
+
+# vim
+.*.sw[a-p]
+
+# various other potential build files
+/*/build/
+/buildassets/map_*.txt
+/*/bin/
+/*/dist/
+/*/manifest.mf
+/release
+
+# Mac filesystem dust
 .DS_Store
 
-#Gradle
-.gradle/
-artifacts/
-gradle-app.setting
-
-#Maven
-dependency-reduced-pom.xml
-
-# Eclipse
-.settings
-.project
-.classpath
-.manifest
-*.launch
-
-# IntelliJ
+# intellij
 *.iml
 *.ipr
 *.iws
 .idea/
 
-#Maven files
-dependency-reduced-pom.xml
+.checkstyle
 
-#Specific files to the project
-*.checkstyle
+# Testfiles
+test.sh
