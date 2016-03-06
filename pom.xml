@@ -71,11 +71,13 @@
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
             <version>1.7.9-R0.2</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.mcstats.bukkit</groupId>
             <artifactId>metrics</artifactId>
-            <version>R7</version>
+            <version>R8-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.martiansoftware</groupId>
