@@ -4,13 +4,13 @@
  */
 package com.thevoxelbox.voxelsniper.brush.perform;
 
+import org.bukkit.ChatColor;
+
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import org.bukkit.ChatColor;
 
 /**
  * @author Voxel

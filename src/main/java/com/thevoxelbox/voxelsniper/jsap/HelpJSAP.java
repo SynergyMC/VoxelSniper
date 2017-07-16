@@ -1,19 +1,18 @@
 package com.thevoxelbox.voxelsniper.jsap;
 
+import com.martiansoftware.jsap.JSAP;
+import com.martiansoftware.jsap.JSAPException;
+import com.martiansoftware.jsap.JSAPResult;
+import com.martiansoftware.jsap.Switch;
+import com.martiansoftware.util.StringUtils;
+import org.bukkit.ChatColor;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import com.martiansoftware.jsap.JSAP;
-import com.martiansoftware.jsap.JSAPException;
-import com.martiansoftware.jsap.JSAPResult;
-import com.martiansoftware.jsap.Switch;
-import com.martiansoftware.util.StringUtils;
-
-import org.bukkit.ChatColor;
 
 /**
  * JSAP parser with help generating code.

@@ -1,12 +1,11 @@
 package com.thevoxelbox.voxelsniper.brush;
 
-import java.util.ArrayList;
-
 import com.thevoxelbox.voxelsniper.Message;
 import com.thevoxelbox.voxelsniper.SnipeData;
-
 import org.bukkit.Material;
 import org.bukkit.block.Block;
+
+import java.util.ArrayList;
 
 /**
  * @author MikeMatrix

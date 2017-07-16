@@ -1,7 +1,6 @@
 package com.thevoxelbox.voxelsniper;
 
 import com.thevoxelbox.voxelsniper.util.VoxelList;
-
 import org.bukkit.World;
 
 /**
